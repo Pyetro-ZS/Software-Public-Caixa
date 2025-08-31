@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #d8e0ff;
+    color: #333;
+  }
+  
+  header {
+    background: #ffffff;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  
+  .logo {
+    height: 50px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  .box {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+
+  h1{
+    color: #004aad;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #004aad;
+  }
+  
+  input, select, button {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus, select:focus {
+    outline: none;
+    border-color: #004aad;
+  }
+  
+  button {
+    background: #004aad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  button:hover {
+    background: #003080;
+  }
+  
+  .prod-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .prod-form input {
+    flex: 1;
+    min-width: 120px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background: #f0f0f0;
+  }
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 5px; 
+}
+
+.btn-editar, .btn-excluir {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-size: 60% 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background 0.3s ease;
+}
+
+.btn-editar {
+  background-color: #2dff26;
+  background-image: url('../public/editing.png');
+}
+.btn-editar:hover {
+  background-color: #26ff2d;
+}
+
+.btn-excluir {
+  background-color: #dc3545;
+  background-image: url('../public/delete.png');
+}
+.btn-excluir:hover {
+  background-color: #c82333;
+}
+
+  .total {
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .nota {
+    margin-top: 15px;
+    padding: 10px;
+    background: #fff;
+    font-family: monospace;
+    white-space: pre-wrap;
+    border: 1px dashed #999;
+    width: 300px;      
+  }
+  
